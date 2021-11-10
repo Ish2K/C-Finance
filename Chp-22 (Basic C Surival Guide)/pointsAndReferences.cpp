@@ -27,4 +27,9 @@ int main(){
 	Pointer_Class *ptr2 = ptr[0];
 
 	cout<<&((*(ptr2+1)));
+
+	// double* arr = new double[10];
+	// &arr = 5.2; //Does not work
+	// cout<<arr[0];
+	
 }
